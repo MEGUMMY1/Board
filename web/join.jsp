@@ -14,8 +14,7 @@
     <style>
       body {
         min-height: 100vh;
-
-        background: #0dcaf0
+        background: #6c757d;
       }
 
       .input-form {
@@ -49,6 +48,14 @@
           </div>
 
           <div class="mb-3">
+            <label for="email">아이디</label>
+            <input type="text" class="form-control" id="id" placeholder="" required>
+            <div class="invalid-feedback">
+              아이디를 입력해주세요.
+            </div>
+          </div>
+
+          <div class="mb-3">
             <label for="email">이메일</label>
             <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
             <div class="invalid-feedback">
@@ -78,7 +85,7 @@
             <label class="custom-control-label" for="aggrement">개인정보 수집 및 이용에 동의합니다.</label>
           </div>
           <div class="mb-4"></div>
-          <button class="btn btn-primary btn-lg btn-block" type="submit">가입 완료</button>
+          <button class="btn btn-outline-dark mt-auto" type="submit">가입 완료</button>
         </form>
       </div>
     </div>

@@ -18,11 +18,10 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container px-4 px-lg-5">
-        <a class="navbar-brand fw-bolder" href="#!">푸렌드</a>
+        <a href="index.jsp"><img src="fooriend_s.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">홈</a></li>
                 <li class="nav-item"><a class="nav-link active" href="#!">찜목록</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">마이페이지</a>
@@ -33,22 +32,16 @@
                         <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
                     </ul>
                 </li>
+                <li class="nav-item"><a class="nav-link active" href="board.jsp">게시판</a></li>
             </ul>
-            <ul>
-                <a class="btn" href="login.jsp">
-                    로그인
-                </a>
-
-                <a class="btn" href="join.jsp">
-                    회원가입
-                </a>
-            </ul>
+            <a class="btn" href="login.jsp">Login</a>
+            <a class="btn" href="join.jsp">Join</a>
 
         </div>
     </div>
 </nav>
 <!-- Header<header class="bg-warning py-5">-->
-<header class="bg-info py-5">
+<header class="bg-secondary py-5">
     <div class="container position-relative">
         <div class="row justify-content-center">
             <div class="col-xl-6">
@@ -70,7 +63,7 @@
                                 <input class="form-control form-control-lg" id="search" type="text" placeholder="검색어를 입력하세요" data-sb-validations="required,value" />
                                 <div class="invalid-feedback text-white" data-sb-feedback="search:required">Value is required.</div>
                             </div>
-                            <div class="col-auto"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">검색</button></div>
+                            <div class="col-auto"><button class="btn btn-light btn-lg" id="submitButton" type="submit">검색</button></div>
                         </div>
                         <!-- Submit success message-->
                         <!---->
@@ -311,7 +304,7 @@
     </div>
 </section>
 <!-- Footer-->
-<footer class="py-5 bg-info">
+<footer class="py-5 bg-secondary">
 </footer>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

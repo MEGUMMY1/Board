@@ -14,7 +14,7 @@
   <style>
     body {
       min-height: 100vh;
-      background: #0dcaf0;
+      background: #6c757d;
     }
 
     .input-form {
@@ -37,28 +37,33 @@
 <div class="container">
   <div class="input-form-backgroud row">
     <div class="input-form col-md-12 mx-auto">
-      <h4 class="mb-3">로그인</h4>
+        <h4 class="mb-3">로그인</h4>
       <form class="validation-form" novalidate>
-        <div class="row">
-          <div class="col-md-6 mb-3">
+        <div class="mb-3">
             <label for="id">ID</label>
             <input type="text" class="form-control" id="ID" placeholder="" value="" required>
             <div class="invalid-feedback">
               아이디를 입력해주세요.
             </div>
-          </div>
+        </div>
 
-          <div class="col-md-6 mb-3">
+        <div class="mb-3">
             <label for="pw">P/W</label>
             <input type="password" class="form-control" id="PW" placeholder="" value="" required>
             <div class="invalid-feedback">
               비밀번호를 입력해주세요.
             </div>
-          </div>
         </div>
 
-        <div class="mb-4"></div>
-        <button class="btn btn-primary btn-lg btn-block" type="login">로그인</button>
+          <label>
+              <input type="checkbox">
+              <span></span>
+              <small>자동 로그인</small>
+          </label>
+
+        <div class="mb-4">
+            <button class="btn btn-outline-dark mt-auto" type="login">로그인</button>
+        </div>
       </form>
     </div>
   </div>
